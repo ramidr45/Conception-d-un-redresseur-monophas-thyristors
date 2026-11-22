@@ -22,4 +22,4 @@ Les fichiers de résultats LTspice (`*.raw`) ne sont pas versionnés : relancer 
 Les librairies composants SamacSys / Ultra Librarian ne sont pas incluses (licence interdisant la redistribution) ; elles se téléchargent gratuitement sur componentsearchengine.com.
 
 ## Auteur
-Rami Dridi — ENIT
+Rami Dridi — ENIT · [Portfolio](https://ramidr45.github.io) · [LinkedIn](https://www.linkedin.com/in/rami-dridi-103358327/)
