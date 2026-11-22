@@ -1,0 +1,3176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\SAT\Desktop\PFA\kicad-redresseur\redresseur\redresseur.kicad_sch</source>
+    <date>2026-04-07T00:25:34+0100</date>
+    <tool>Eeschema 9.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Carte Driver du Redresseur</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>redresseur.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1000n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33c65c8e-d343-42f1-9a13-8734dee0d18d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2200u</value>
+      <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>446a4fa9-c5f5-49fc-823c-dd60976b26d2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>300n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67456d58-38a0-430e-9628-50e859e72d49</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>F471K33Y5RP6UK5R</value>
+      <footprint>F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</footprint>
+      <datasheet>https://www.vishay.com/docs/28500/fseries.pdf</datasheet>
+      <description>Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</description>
+      <fields>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">594-F471K33Y5RP6UK5R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">F471K33Y5RP6UK5R</field>
+        <field name="Footprint">F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28500/fseries.pdf</field>
+        <field name="Description">Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</field>
+      </fields>
+      <libsource lib="F471K33Y5RP6UK5R" part="F471K33Y5RP6UK5R" description="Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS"/>
+      <property name="Height" value="8.5"/>
+      <property name="Mouser Part Number" value="594-F471K33Y5RP6UK5R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="F471K33Y5RP6UK5R"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f47240-298d-45a7-87ac-7564ffc6e443</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>F471K33Y5RP6UK5R</value>
+      <footprint>F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</footprint>
+      <datasheet>https://www.vishay.com/docs/28500/fseries.pdf</datasheet>
+      <description>Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</description>
+      <fields>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">594-F471K33Y5RP6UK5R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">F471K33Y5RP6UK5R</field>
+        <field name="Footprint">F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28500/fseries.pdf</field>
+        <field name="Description">Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</field>
+      </fields>
+      <libsource lib="F471K33Y5RP6UK5R" part="F471K33Y5RP6UK5R" description="Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS"/>
+      <property name="Height" value="8.5"/>
+      <property name="Mouser Part Number" value="594-F471K33Y5RP6UK5R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="F471K33Y5RP6UK5R"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53f36577-7b7d-4bb7-9e03-659066ce6839</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>F471K33Y5RP6UK5R</value>
+      <footprint>F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</footprint>
+      <datasheet>https://www.vishay.com/docs/28500/fseries.pdf</datasheet>
+      <description>Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</description>
+      <fields>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">594-F471K33Y5RP6UK5R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">F471K33Y5RP6UK5R</field>
+        <field name="Footprint">F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28500/fseries.pdf</field>
+        <field name="Description">Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</field>
+      </fields>
+      <libsource lib="F471K33Y5RP6UK5R" part="F471K33Y5RP6UK5R" description="Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS"/>
+      <property name="Height" value="8.5"/>
+      <property name="Mouser Part Number" value="594-F471K33Y5RP6UK5R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="F471K33Y5RP6UK5R"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07a7d53d-e1dd-4df3-be9d-a605602a93f2</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>F471K33Y5RP6UK5R</value>
+      <footprint>F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</footprint>
+      <datasheet>https://www.vishay.com/docs/28500/fseries.pdf</datasheet>
+      <description>Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</description>
+      <fields>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">594-F471K33Y5RP6UK5R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">F471K33Y5RP6UK5R</field>
+        <field name="Footprint">F471K33Y5RP6UK5R:F471K33Y5RP6UK5R</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28500/fseries.pdf</field>
+        <field name="Description">Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</field>
+      </fields>
+      <libsource lib="F471K33Y5RP6UK5R" part="F471K33Y5RP6UK5R" description="Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS"/>
+      <property name="Height" value="8.5"/>
+      <property name="Mouser Part Number" value="594-F471K33Y5RP6UK5R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="F471K33Y5RP6UK5R"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08204636-9796-42a2-857d-eab5919f1976</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-201_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>303271e7-111f-49b3-92a8-02d2d15876d9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6110fe2e-4239-4528-8788-8a38913fa82f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19de1171-9d9c-4f2c-b808-b86bd269072e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3555246-419b-4de2-a6f7-10bfc004a921</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-201_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ac1abd-fe4f-4416-8b1a-6eff2138ad27</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>581be575-cbf8-4e94-89be-8e3731d20fb4</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adc32320-9b2f-4d45-a84a-d27ec5e04674</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-201_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdba1a9f-d396-4cda-8dfc-6697b9c3be1e</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03100d47-1ae8-4e04-9bcd-21e9ff930111</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fca222e-ac64-49ad-9ad2-be852d697862</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-201_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>003f8fc8-3a2d-42cb-8406-7681b17c913a</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c4391b0-11b9-42ac-bd45-c1d7a981c9d5</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>RS404</value>
+      <footprint>footprints:RS-4L_DIO</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033</datasheet>
+      <description>Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package</description>
+      <fields>
+        <field name="Footprint">footprints:RS-4L_DIO</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033</field>
+        <field name="Description">Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package</field>
+      </fields>
+      <libsource lib="Diode_Bridge" part="B80C5000-3x00A" description="Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="rectifier acdc"/>
+      <property name="ki_fp_filters" value="D*Bridge*32.0x5.6x17.0mm*P10.0mm*P7.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eae9e3e-f591-443b-8569-3b869b69d779</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>BT152-800R</value>
+      <footprint>KiCad:TO254P470X1000X2000-3P</footprint>
+      <datasheet>https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</datasheet>
+      <description>SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</description>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">BT152-800R</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Footprint">KiCad:TO254P470X1000X2000-3P</field>
+        <field name="Datasheet">https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</field>
+        <field name="Description">SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</field>
+      </fields>
+      <libsource lib="BT152-800R" part="BT152-800R" description="SCR 800 V 20 A Standard Recovery Through Hole TO-220AB"/>
+      <property name="Height" value="4.7"/>
+      <property name="Manufacturer_Name" value="NXP"/>
+      <property name="Manufacturer_Part_Number" value="BT152-800R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4154164d-8584-4f55-b0d6-3e61f64fa246</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>BT152-800R</value>
+      <footprint>KiCad:TO254P470X1000X2000-3P</footprint>
+      <datasheet>https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</datasheet>
+      <description>SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</description>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">BT152-800R</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Footprint">KiCad:TO254P470X1000X2000-3P</field>
+        <field name="Datasheet">https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</field>
+        <field name="Description">SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</field>
+      </fields>
+      <libsource lib="BT152-800R" part="BT152-800R" description="SCR 800 V 20 A Standard Recovery Through Hole TO-220AB"/>
+      <property name="Height" value="4.7"/>
+      <property name="Manufacturer_Name" value="NXP"/>
+      <property name="Manufacturer_Part_Number" value="BT152-800R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bbe4a5a-444d-4cdf-b2e3-88bcc695b9e8</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9124da3a-def0-4976-a909-f4f9af3e154c</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>BT152-800R</value>
+      <footprint>KiCad:TO254P470X1000X2000-3P</footprint>
+      <datasheet>https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</datasheet>
+      <description>SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</description>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">BT152-800R</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Footprint">KiCad:TO254P470X1000X2000-3P</field>
+        <field name="Datasheet">https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</field>
+        <field name="Description">SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</field>
+      </fields>
+      <libsource lib="BT152-800R" part="BT152-800R" description="SCR 800 V 20 A Standard Recovery Through Hole TO-220AB"/>
+      <property name="Height" value="4.7"/>
+      <property name="Manufacturer_Name" value="NXP"/>
+      <property name="Manufacturer_Part_Number" value="BT152-800R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c30add01-506f-44c1-88a9-caa6a61ebc1e</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b1c2c9b-54e5-4f77-ad47-ca74fde0f087</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd2c0526-1060-4c9a-abbc-8e9f922d2f17</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e0df3c-556b-44fa-9b4e-313214a14b56</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3fb3b19-0c76-4a1e-8249-5a176a64be01</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bed3debc-540f-456f-9b27-409968a637d3</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>845f8999-8c12-4116-a5f3-4b064938fca2</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>BT152-800R</value>
+      <footprint>KiCad:TO254P470X1000X2000-3P</footprint>
+      <datasheet>https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</datasheet>
+      <description>SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</description>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">BT152-800R</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Footprint">KiCad:TO254P470X1000X2000-3P</field>
+        <field name="Datasheet">https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</field>
+        <field name="Description">SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</field>
+      </fields>
+      <libsource lib="BT152-800R" part="BT152-800R" description="SCR 800 V 20 A Standard Recovery Through Hole TO-220AB"/>
+      <property name="Height" value="4.7"/>
+      <property name="Manufacturer_Name" value="NXP"/>
+      <property name="Manufacturer_Part_Number" value="BT152-800R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fed6b98-11dc-4789-9419-afe974e63dc2</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aafe9f4d-fbc1-4ca4-86e5-de8fbff8e360</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>L-53GD</value>
+      <footprint>L-53GD:LEDRD254W50D500H1060</footprint>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.6mm</field>
+        <field name="Package">CDIP-28 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">V.3</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">L-53GD</field>
+        <field name="Description_1">LED; 5mm; green; 5-32mcd; 60°; Front: convex</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">L-53GD:LEDRD254W50D500H1060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="L-53GD" part="L-53GD" description=""/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.6mm"/>
+      <property name="Package" value="CDIP-28 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="V.3"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="L-53GD"/>
+      <property name="Description_1" value="LED; 5mm; green; 5-32mcd; 60°; Front: convex"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40de61b6-5aa5-4888-96ef-b07173dd7112</tstamps>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <footprint>Heatsink:Heatsink_Stonecold_HS-S01_13.21x6.35mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Heatsink</description>
+      <fields>
+        <field name="Footprint">Heatsink:Heatsink_Stonecold_HS-S01_13.21x6.35mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Heatsink</field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="thermal heat temperature"/>
+      <property name="ki_fp_filters" value="Heatsink_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15389b8-fdc1-4e59-b5a6-b5fd7b5d5903</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2164ebab-e094-42e2-8f58-12b29d3b52b4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>2350513-3</value>
+      <footprint>23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</datasheet>
+      <description>Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</description>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">571-2350513-3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">2350513-3</field>
+        <field name="Footprint">23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</field>
+        <field name="Description">Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</field>
+      </fields>
+      <libsource lib="2350513-3" part="2350513-3" description="Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="571-2350513-3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="2350513-3"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fd1c3a0-fca3-4206-8e80-07b77cf6c58a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>2350513-3</value>
+      <footprint>23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</datasheet>
+      <description>Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</description>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">571-2350513-3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">2350513-3</field>
+        <field name="Footprint">23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</field>
+        <field name="Description">Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</field>
+      </fields>
+      <libsource lib="2350513-3" part="2350513-3" description="Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="571-2350513-3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="2350513-3"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31aec58e-3309-47ed-a555-160a33018a7c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>2350513-3</value>
+      <footprint>23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</datasheet>
+      <description>Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</description>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">571-2350513-3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">2350513-3</field>
+        <field name="Footprint">23505:SHDRRA3W110P0X500_1X3_1660X1200X860P</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</field>
+        <field name="Description">Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</field>
+      </fields>
+      <libsource lib="2350513-3" part="2350513-3" description="Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="571-2350513-3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="2350513-3"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ec12dfb-a044-46e2-aa7d-26ae0706706e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>619ba2ac-cdbd-49d9-bf8f-27ec607fc029</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d8ff7cb-3edc-46f3-9e50-2eeba915faca</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>L</value>
+      <footprint>Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0800d10-a376-4a44-83a2-b90f074f2fc9</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>L</value>
+      <footprint>Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e932e133-b607-4fbc-9b27-6b23bd596a7e</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>L</value>
+      <footprint>Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd44a12a-754c-43f4-b206-9d987eb7e320</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+        <field name="Description">1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8ca5d48-d080-4746-bd68-e0e7d26d7b31</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+        <field name="Description">1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a2c430-86dd-4386-ac2f-d64e0f810071</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+        <field name="Description">1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83c6e7bf-d555-4b76-9838-127591ecb5f7</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+        <field name="Description">1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6483855d-72ec-4b4c-80ad-1800f3dab57f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>Rb</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2527806c-a619-4af9-b5e0-f913f49c9ef3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>Rc</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>176c4833-c1de-4af1-b6cc-e9c8aae3c62c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>Rg</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be60384a-c625-4a39-a483-a0674ec40d8d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2d14bf-4e51-4616-b276-d68faf12bb5e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>Rb</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e17b476e-9f56-4821-b8a1-9b8302ecc394</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>Rc</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c3410e0-4f87-4953-a32e-628c93100321</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>Rg</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81612acf-4480-47cc-9285-e1c041b07014</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c6d507e-c83b-4b18-b1a1-a9b56d535e47</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>Rb</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75c40dce-2feb-4e82-acf7-28a479e1c76b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>Rc</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce505aea-753c-4e2a-8706-12d4cf14b3b8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>Rc</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2d1a1c-c43b-43d3-a857-13cc9cccb7d9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>RD</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4bd54e7-445e-4b55-9346-b9e9025c9ded</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>Rb</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df66e290-04b5-4167-9f91-c2d34cc6cb5f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>Rc</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aba637b8-c87e-41c9-8b3b-2ff4a283ef1b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>Rg</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41420bb6-4a93-4452-8391-21074c63eaaf</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>538850c0-c6e1-4b70-91da-179d5fe2beb5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>Rd</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f75341d7-6f72-4432-a0fb-ba0577695867</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>Rd</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd8a350-573f-4df9-8584-406d31548a91</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>Rd</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d45e86e-debf-4d5a-8a97-980208e9f51d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>Rd</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6690a401-4f08-4bcb-b9f5-10f47e972910</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edbd9bfc-69ee-4f32-a45c-4472bf6cc950</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>Rgk</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6113db5-7a3a-4e51-b6ab-027f0742627f</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>Rp</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>556150de-952a-49dd-bcfb-fcb2b60d671c</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>Rgk</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43d48808-9c65-4b80-a638-f44a1beec153</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>Rp</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1a0efe-e576-4aa0-81e4-159feeed8fbf</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>Rp</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>334d0cb0-ddb7-4931-a019-2a82f7b3a7a0</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>Rgk</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9694af0e-2163-4135-be82-cdd81e48bb19</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>Rgk</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f483727-89c7-43d3-ab69-2ba1e50118e9</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>Rp</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>548ce024-30e5-454c-b9db-92f1730cf94c</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2be2bd70-e1da-4061-9b06-cd7245d9b70e</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5e34431-0911-4ff0-aee4-702bcc504d7d</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1042abf9-df6f-49c8-ab69-047ad17246b9</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>184569ed-33da-49ad-8321-19a564b630f6</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>1001C</value>
+      <footprint>1001C:1001C</footprint>
+      <datasheet>https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</datasheet>
+      <description>1:1 PCB Mount Telecom Transformer, 3mH, 1.2</description>
+      <fields>
+        <field name="Height">16.25</field>
+        <field name="Mouser Part Number">580-1001C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">1001C</field>
+        <field name="Footprint">1001C:1001C</field>
+        <field name="Datasheet">https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</field>
+        <field name="Description">1:1 PCB Mount Telecom Transformer, 3mH, 1.2</field>
+      </fields>
+      <libsource lib="1001C" part="1001C" description="1:1 PCB Mount Telecom Transformer, 3mH, 1.2"/>
+      <property name="Height" value="16.25"/>
+      <property name="Mouser Part Number" value="580-1001C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="1001C"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1831b050-93ca-48a2-ae30-ab72cf31e034</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>1001C</value>
+      <footprint>1001C:1001C</footprint>
+      <datasheet>https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</datasheet>
+      <description>1:1 PCB Mount Telecom Transformer, 3mH, 1.2</description>
+      <fields>
+        <field name="Height">16.25</field>
+        <field name="Mouser Part Number">580-1001C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">1001C</field>
+        <field name="Footprint">1001C:1001C</field>
+        <field name="Datasheet">https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</field>
+        <field name="Description">1:1 PCB Mount Telecom Transformer, 3mH, 1.2</field>
+      </fields>
+      <libsource lib="1001C" part="1001C" description="1:1 PCB Mount Telecom Transformer, 3mH, 1.2"/>
+      <property name="Height" value="16.25"/>
+      <property name="Mouser Part Number" value="580-1001C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="1001C"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c0cb0f6-693b-4053-b560-69ad24c9e57d</tstamps>
+    </comp>
+    <comp ref="T4">
+      <value>1001C</value>
+      <footprint>1001C:1001C</footprint>
+      <datasheet>https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</datasheet>
+      <description>1:1 PCB Mount Telecom Transformer, 3mH, 1.2</description>
+      <fields>
+        <field name="Height">16.25</field>
+        <field name="Mouser Part Number">580-1001C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">1001C</field>
+        <field name="Footprint">1001C:1001C</field>
+        <field name="Datasheet">https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</field>
+        <field name="Description">1:1 PCB Mount Telecom Transformer, 3mH, 1.2</field>
+      </fields>
+      <libsource lib="1001C" part="1001C" description="1:1 PCB Mount Telecom Transformer, 3mH, 1.2"/>
+      <property name="Height" value="16.25"/>
+      <property name="Mouser Part Number" value="580-1001C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="1001C"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ae573b0-4b8b-4a24-9ccd-4110d8d03bd9</tstamps>
+    </comp>
+    <comp ref="T6">
+      <value>1001C</value>
+      <footprint>1001C:1001C</footprint>
+      <datasheet>https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</datasheet>
+      <description>1:1 PCB Mount Telecom Transformer, 3mH, 1.2</description>
+      <fields>
+        <field name="Height">16.25</field>
+        <field name="Mouser Part Number">580-1001C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">1001C</field>
+        <field name="Footprint">1001C:1001C</field>
+        <field name="Datasheet">https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</field>
+        <field name="Description">1:1 PCB Mount Telecom Transformer, 3mH, 1.2</field>
+      </fields>
+      <libsource lib="1001C" part="1001C" description="1:1 PCB Mount Telecom Transformer, 3mH, 1.2"/>
+      <property name="Height" value="16.25"/>
+      <property name="Mouser Part Number" value="580-1001C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Murata Electronics"/>
+      <property name="Manufacturer_Part_Number" value="1001C"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4760c10a-0659-4186-b495-e14289518086</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb704ba6-b174-4c08-bd95-d08f2f7bf4a5</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3de8dab4-30e4-48c4-bb08-2a82ba317af8</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d527239-2451-4b91-a959-c90b6c21b4c9</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960a27ac-0e2a-49c7-821c-7b5db90f090b</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85a4f1f2-9158-410e-8fda-2c930d13d153</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e25009c-5b17-46ef-aaab-064f0e8e11a8</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fad8e51-e373-426a-adee-c3b911e0ee01</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28878a97-0ec6-43e5-841e-650d96d80084</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cd73ba8-d64d-4c77-b91f-60b951ec642c</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00208a31-807c-469d-9943-a2b81d651328</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8187b63a-ac9d-4d2e-9bdf-f68f502c27e6</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce1d2a4-ebde-4912-83a0-192eae641dbe</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cac57e06-a846-4cb0-9700-7ed387a368d6</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a4a353c-361e-4f41-8520-c27acc44f53a</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3acc5cbd-f314-4b1e-8d2b-7a3b47158f7b</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c3f0d5-a4bd-4a3b-af17-da99d8c37f12</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b14f531-bd3d-4a83-9cd6-0932eabca246</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d0198ea-028e-48ab-a64f-791165b46e4e</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e087fdb4-be9a-4d0d-b751-399e4c6512b1</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88c81230-051e-4dc7-a8aa-67f54e0935a5</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>449c3678-0e93-49ba-b31b-33ee49c90b21</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>L7812</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Description">Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7812" description="Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <property name="ki_fp_filters" value="TO?252* TO?263* TO?220*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65f46c62-1028-4fe0-8333-7a0f73d95b3a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>3101.0045.15</value>
+      <footprint>3101.0045.15:3101004515</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/2950eb5ce995ebf80c563908a978e1c6.pdf</datasheet>
+      <description>FPG4 FUSEHOLDER 5X20 IP 40</description>
+      <fields>
+        <field name="Height">36.6</field>
+        <field name="Manufacturer_Name">SCHURTER</field>
+        <field name="Manufacturer_Part_Number">3101.0045.15</field>
+        <field name="Mouser Part Number">693-3101.0045.15</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Schurter/3101004515?qs=3uJPfpuBLm6uvQLpq85wUA%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+        <field name="Footprint">3101.0045.15:3101004515</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/2950eb5ce995ebf80c563908a978e1c6.pdf</field>
+        <field name="Description">FPG4 FUSEHOLDER 5X20 IP 40</field>
+      </fields>
+      <libsource lib="3101.0045.15" part="3101.0045.15" description="FPG4 FUSEHOLDER 5X20 IP 40"/>
+      <property name="Height" value="36.6"/>
+      <property name="Manufacturer_Name" value="SCHURTER"/>
+      <property name="Manufacturer_Part_Number" value="3101.0045.15"/>
+      <property name="Mouser Part Number" value="693-3101.0045.15"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Schurter/3101004515?qs=3uJPfpuBLm6uvQLpq85wUA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a76f321e-e220-47ac-901e-671118625da8</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RA-T2X-51E</value>
+      <footprint>RA-T2X-51E:RAT2X51E</footprint>
+      <datasheet>https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</datasheet>
+      <description>HEATSINK FOR TO220 218 247</description>
+      <fields>
+        <field name="Height">50.8</field>
+        <field name="Manufacturer_Name">Ohmite</field>
+        <field name="Manufacturer_Part_Number">RA-T2X-51E</field>
+        <field name="Mouser Part Number">588-RA-T2X-51E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+        <field name="Footprint">RA-T2X-51E:RAT2X51E</field>
+        <field name="Datasheet">https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</field>
+        <field name="Description">HEATSINK FOR TO220 218 247</field>
+      </fields>
+      <libsource lib="RA-T2X-51E" part="RA-T2X-51E" description="HEATSINK FOR TO220 218 247"/>
+      <property name="Height" value="50.8"/>
+      <property name="Manufacturer_Name" value="Ohmite"/>
+      <property name="Manufacturer_Part_Number" value="RA-T2X-51E"/>
+      <property name="Mouser Part Number" value="588-RA-T2X-51E"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b95de60e-d2de-472f-9af6-f0fdcaa22ee4</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RA-T2X-51E</value>
+      <footprint>RA-T2X-51E:RAT2X51E</footprint>
+      <datasheet>https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</datasheet>
+      <description>HEATSINK FOR TO220 218 247</description>
+      <fields>
+        <field name="Height">50.8</field>
+        <field name="Manufacturer_Name">Ohmite</field>
+        <field name="Manufacturer_Part_Number">RA-T2X-51E</field>
+        <field name="Mouser Part Number">588-RA-T2X-51E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+        <field name="Footprint">RA-T2X-51E:RAT2X51E</field>
+        <field name="Datasheet">https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</field>
+        <field name="Description">HEATSINK FOR TO220 218 247</field>
+      </fields>
+      <libsource lib="RA-T2X-51E" part="RA-T2X-51E" description="HEATSINK FOR TO220 218 247"/>
+      <property name="Height" value="50.8"/>
+      <property name="Manufacturer_Name" value="Ohmite"/>
+      <property name="Manufacturer_Part_Number" value="RA-T2X-51E"/>
+      <property name="Mouser Part Number" value="588-RA-T2X-51E"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e4146f9-ea56-4dc9-a167-3246f1615ac3</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>RA-T2X-51E</value>
+      <footprint>RA-T2X-51E:RAT2X51E</footprint>
+      <datasheet>https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</datasheet>
+      <description>HEATSINK FOR TO220 218 247</description>
+      <fields>
+        <field name="Height">50.8</field>
+        <field name="Manufacturer_Name">Ohmite</field>
+        <field name="Manufacturer_Part_Number">RA-T2X-51E</field>
+        <field name="Mouser Part Number">588-RA-T2X-51E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+        <field name="Footprint">RA-T2X-51E:RAT2X51E</field>
+        <field name="Datasheet">https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</field>
+        <field name="Description">HEATSINK FOR TO220 218 247</field>
+      </fields>
+      <libsource lib="RA-T2X-51E" part="RA-T2X-51E" description="HEATSINK FOR TO220 218 247"/>
+      <property name="Height" value="50.8"/>
+      <property name="Manufacturer_Name" value="Ohmite"/>
+      <property name="Manufacturer_Part_Number" value="RA-T2X-51E"/>
+      <property name="Mouser Part Number" value="588-RA-T2X-51E"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a45d6965-999d-4095-8e86-f2a71028aff2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>RA-T2X-51E</value>
+      <footprint>RA-T2X-51E:RAT2X51E</footprint>
+      <datasheet>https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</datasheet>
+      <description>HEATSINK FOR TO220 218 247</description>
+      <fields>
+        <field name="Height">50.8</field>
+        <field name="Manufacturer_Name">Ohmite</field>
+        <field name="Manufacturer_Part_Number">RA-T2X-51E</field>
+        <field name="Mouser Part Number">588-RA-T2X-51E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+        <field name="Footprint">RA-T2X-51E:RAT2X51E</field>
+        <field name="Datasheet">https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</field>
+        <field name="Description">HEATSINK FOR TO220 218 247</field>
+      </fields>
+      <libsource lib="RA-T2X-51E" part="RA-T2X-51E" description="HEATSINK FOR TO220 218 247"/>
+      <property name="Height" value="50.8"/>
+      <property name="Manufacturer_Name" value="Ohmite"/>
+      <property name="Manufacturer_Part_Number" value="RA-T2X-51E"/>
+      <property name="Mouser Part Number" value="588-RA-T2X-51E"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value="Racine"/>
+      <property name="Sheetfile" value="redresseur.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b03a25b2-e64e-4e80-8dcc-f98fcdabd2e7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1001C" part="1001C">
+      <description>1:1 PCB Mount Telecom Transformer, 3mH, 1.2</description>
+      <docs>https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">1001C</field>
+        <field name="Footprint">1001C:1001C</field>
+        <field name="Datasheet">https://www.murata-ps.com/data/magnetics/kmp_1000.pdf</field>
+        <field name="Description">1:1 PCB Mount Telecom Transformer, 3mH, 1.2</field>
+        <field name="Height">16.25</field>
+        <field name="Mouser Part Number">580-1001C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/1001C?qs=30J0M4wBpcRFd%252BBlTPiLsA%3D%3D</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">1001C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PRI_1" type="passive"/>
+        <pin num="2" name="PRI_2" type="passive"/>
+        <pin num="5" name="SEC_1" type="passive"/>
+        <pin num="6" name="SEC_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="2350513-3" part="2350513-3">
+      <description>Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2350513-3</field>
+        <field name="Footprint">SHDRRA3W110P0X500_1X3_1660X1200X860P</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=3-1773982-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2350513-3&amp;DocFormat=pdf</field>
+        <field name="Description">Body Features: Product Orientation Right Angle | Primary Product Color Green | Configuration Features: Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 16 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) 5 MM | Centerline (Pitch) .197 INCH | Mechanical Attachment: Connector Mounting</field>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">571-2350513-3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2350513-3?qs=UXgszm6BlbFF65kpQIHbUg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">2350513-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3101.0045.15" part="3101.0045.15">
+      <description>FPG4 FUSEHOLDER 5X20 IP 40</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/2950eb5ce995ebf80c563908a978e1c6.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3101.0045.15</field>
+        <field name="Footprint">3101004515</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/2950eb5ce995ebf80c563908a978e1c6.pdf</field>
+        <field name="Description">FPG4 FUSEHOLDER 5X20 IP 40</field>
+        <field name="Height">36.6</field>
+        <field name="Manufacturer_Name">SCHURTER</field>
+        <field name="Manufacturer_Part_Number">3101.0045.15</field>
+        <field name="Mouser Part Number">693-3101.0045.15</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Schurter/3101004515?qs=3uJPfpuBLm6uvQLpq85wUA%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BT152-800R" part="BT152-800R">
+      <description>SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</description>
+      <docs>https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BT152-800R</field>
+        <field name="Footprint">TO254P470X1000X2000-3P</field>
+        <field name="Datasheet">https://www.ween-semi.com/sites/default/files/2018-10/bt152-800r.pdf</field>
+        <field name="Description">SCR 800 V 20 A Standard Recovery Through Hole TO-220AB</field>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">BT152-800R</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_Bridge" part="B80C5000-3x00A">
+      <description>Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033</docs>
+      <footprints>
+        <fp>D*Bridge*32.0x5.6x17.0mm*P10.0mm*P7.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B80C5000-3x00A</field>
+        <field name="Footprint">Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033</field>
+        <field name="Description">Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="F471K33Y5RP6UK5R" part="F471K33Y5RP6UK5R">
+      <description>Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</description>
+      <docs>https://www.vishay.com/docs/28500/fseries.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">F471K33Y5RP6UK5R</field>
+        <field name="Footprint">F471K33Y5RP6UK5R</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28500/fseries.pdf</field>
+        <field name="Description">Safety Capacitors 470pF 2Kvolt 10% Y5R 5mm LS</field>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">594-F471K33Y5RP6UK5R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/F471K33Y5RP6UK5R?qs=ftzNSb6%2F63rYeg13XZow8A%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">F471K33Y5RP6UK5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="L-53GD" part="L-53GD">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">L-53GD</field>
+        <field name="Footprint">L-53GD:LEDRD254W50D500H1060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.6mm</field>
+        <field name="Package">CDIP-28 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">V.3</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">L-53GD</field>
+        <field name="Description_1">LED; 5mm; green; 5-32mcd; 60°; Front: convex</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Heatsink</field>
+      </fields>
+    </libpart>
+    <libpart lib="RA-T2X-51E" part="RA-T2X-51E">
+      <description>HEATSINK FOR TO220 218 247</description>
+      <docs>https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RA-T2X-51E</field>
+        <field name="Footprint">RAT2X51E</field>
+        <field name="Datasheet">https://www.ohmite.com/catalog/f-and-r-series-heatsink/RA-T2X-51E</field>
+        <field name="Description">HEATSINK FOR TO220 218 247</field>
+        <field name="Height">50.8</field>
+        <field name="Manufacturer_Name">Ohmite</field>
+        <field name="Manufacturer_Part_Number">RA-T2X-51E</field>
+        <field name="Mouser Part Number">588-RA-T2X-51E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Ohmite/RA-T2X-51E?qs=wmFqszA%252Be7PAY9yAYOYZxg%3D%3D</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Mouser Testing Part Number"/>
+        <field name="Mouser Testing Price/Stock"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MNT_1" type="passive"/>
+        <pin num="2" name="MNT_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7812">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U7</field>
+        <field name="Value">L7812</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Description">Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="PN2222A">
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PN2222A</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+        <field name="Description">1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1001C">
+      <uri>C:/Users/SAT/Downloads/LIB_1001C/1001C/KiCad/1001C.kicad_sym</uri>
+    </library>
+    <library logical="2350513-3">
+      <uri>C:/Users/SAT/Downloads/LIB_2350513-3 (1)/2350513-3/KiCad/2350513-3.kicad_sym</uri>
+    </library>
+    <library logical="3101.0045.15">
+      <uri>C:/Users/SAT/Downloads/Kicad/Kicad/Symbols/3101.0045.15/3101.0045.15.kicad_sym</uri>
+    </library>
+    <library logical="BT152-800R">
+      <uri>C:/Users/SAT/Downloads/LIB_BT152-800R/BT152-800R/KiCad/BT152-800R.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Diode_Bridge">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode_Bridge.kicad_sym</uri>
+    </library>
+    <library logical="F471K33Y5RP6UK5R">
+      <uri>C:/Users/SAT/Downloads/LIB_F471K33Y5RP6UK5R/F471K33Y5RP6UK5R/KiCad/F471K33Y5RP6UK5R.kicad_sym</uri>
+    </library>
+    <library logical="L-53GD">
+      <uri>C:/Users/SAT/Downloads/L-53GD/L-53GD.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RA-T2X-51E">
+      <uri>C:/Users/SAT/Downloads/Kicad/Kicad/Symbols/RA-T2X-51E/RA-T2X-51E.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="PRI_1" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="PRI_1" pintype="passive"/>
+      <node ref="T4" pin="1" pinfunction="PRI_1" pintype="passive"/>
+      <node ref="T6" pin="1" pinfunction="PRI_1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="C" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="GNDPWR" class="Default">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C4-Pad1)" class="Default">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad1)" class="Default">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C7-Pad1)" class="Default">
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="T6" pin="2" pinfunction="PRI_2" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T6" pin="5" pinfunction="SEC_1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D3-K)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D4-A)" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D6-A)" class="Default">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T2" pin="5" pinfunction="SEC_1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D6-K)" class="Default">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D7-A)" class="Default">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D9-A)" class="Default">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T3" pin="5" pinfunction="SEC_1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D9-K)" class="Default">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D10-A)" class="Default">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D11-K)" class="Default">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="T4" pin="2" pinfunction="PRI_2" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D12-A)" class="Default">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T4" pin="5" pinfunction="SEC_1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D12-K)" class="Default">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D13-+)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D13" pin="4" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(D13-Pad2)" class="Default">
+      <node ref="D13" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D13-Pad3)" class="Default">
+      <node ref="D13" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D14-A)" class="Default">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D15-A)" class="Default">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D16-A)" class="Default">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D17-A)" class="Default">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D18-A)" class="Default">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D18-K)" class="Default">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="PRI_2" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D19-A)" class="Default">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D20-A)" class="Default">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D20-K)" class="Default">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="T3" pin="2" pinfunction="PRI_2" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D21-A)" class="Default">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D22-A)" class="Default">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D23-A)" class="Default">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D24-A)" class="Default">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D25-A)" class="Default">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D26-PadA)" class="Default">
+      <node ref="D26" pin="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J3-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J3-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(L2-Pad2)" class="Default">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q1-B)" class="Default">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q1-C)" class="Default">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q2-B)" class="Default">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q2-C)" class="Default">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q3-B)" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q3-C)" class="Default">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q4-B)" class="Default">
+      <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q4-C)" class="Default">
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="VHa" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="VHb" class="Default">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="VLa" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="VLb" class="Default">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="VgHa" class="Default">
+      <node ref="D24" pin="3" pinfunction="G" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="56" name="VgHb" class="Default">
+      <node ref="D15" pin="3" pinfunction="G" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="57" name="VgLa" class="Default">
+      <node ref="D14" pin="3" pinfunction="G" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="VgLb" class="Default">
+      <node ref="D17" pin="3" pinfunction="G" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="59" name="VkHa" class="Default">
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="T6" pin="6" pinfunction="SEC_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="VkHb" class="Default">
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="T3" pin="6" pinfunction="SEC_2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="61" name="VkLa" class="Default">
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="T2" pin="6" pinfunction="SEC_2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="VkLb" class="Default">
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="T4" pin="6" pinfunction="SEC_2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J3-Pad2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J4-Pad2)" class="Default">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-MNT_1-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="MNT_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-MNT_2-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="MNT_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U4-MNT_1-Pad1)" class="Default">
+      <node ref="U4" pin="1" pinfunction="MNT_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U4-MNT_2-Pad2)" class="Default">
+      <node ref="U4" pin="2" pinfunction="MNT_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U5-MNT_1-Pad1)" class="Default">
+      <node ref="U5" pin="1" pinfunction="MNT_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U5-MNT_2-Pad2)" class="Default">
+      <node ref="U5" pin="2" pinfunction="MNT_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U6-MNT_1-Pad1)" class="Default">
+      <node ref="U6" pin="1" pinfunction="MNT_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U6-MNT_2-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="MNT_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="voutDC" class="Default">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

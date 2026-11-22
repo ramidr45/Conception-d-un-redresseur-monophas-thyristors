@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Ohmite RA-T2X-51E
+#
+DEF RA-T2X-51E MP 0 40 Y Y 1 L N
+F0 "MP" 0 600 50 H V L CNN 
+F1 "RA-T2X-51E" 0 700 50 H V L CNN 
+F2 "Ohmite-RA-T2X-51E-*" 0 800 50 H I L CNN 
+F3 "https://www.ohmite.com/assets/docs/sink_f_r.pdf?r=false" 0 900 50 H I L CNN 
+F4 "No" 0 1000 50 H I L CNN "automotive"
+F5 "UNK" 0 1100 50 H I L CNN "category"
+F6 "Electromechanical" 0 1200 50 H I L CNN "device class L1"
+F7 "Thermal Management" 0 1300 50 H I L CNN "device class L2"
+F8 "Heat Sinks" 0 1400 50 H I L CNN "device class L3"
+F9 "HEATSINK TO-218,TO-220,TO-247" 0 1500 50 H I L CNN "digikey description"
+F10 "RA-T2X-51E-ND" 0 1600 50 H I L CNN "digikey part number"
+F11 "51.36mm" 0 1700 50 H I L CNN "height"
+F12 "Yes" 0 1800 50 H I L CNN "lead free"
+F13 "66013400f991a2b1" 0 1900 50 H I L CNN "library id"
+F14 "Ohmite" 0 2000 50 H I L CNN "manufacturer"
+F15 "TO-220,TO-218,TO-247" 0 2100 50 H I L CNN "mating package"
+F16 "Through Hole" 0 2200 50 H I L CNN "mount"
+F17 "Heat Sinks HTSNK TO-220 218 247 BLK ANODIZED" 0 2300 50 H I L CNN "mouser description"
+F18 "588-RA-T2X-51E" 0 2400 50 H I L CNN "mouser part number"
+F19 "3.5°C/W" 0 2500 50 H I L CNN "natural thermal resistance"
+F20 "PTH_HEATSINK_25MM0_42MM0" 0 2600 50 H I L CNN "package"
+F21 "Yes" 0 2700 50 H I L CNN "rohs"
+DRAW
+X MNT_1 1 0 100 100 U 40 0 1 1 P 
+X MNT_2 2 100 100 100 U 40 0 1 1 P 
+P 2 1 1 0 -50 200 150 200 N
+A -21 400 57 1199 2400 1 1 0 N -51 450 -51 350
+A -78 300 57 2999 600 1 1 0 N -48 350 -48 250
+A 78 400 57 1199 2400 1 1 0 N 48 450 48 350
+A 21 300 57 2999 600 1 1 0 N 51 350 51 250
+A 178 400 57 1199 2400 1 1 0 N 148 450 148 350
+A 121 300 57 2999 600 1 1 0 N 151 350 151 250
+ENDDRAW
+ENDDEF
+#
+# End Library

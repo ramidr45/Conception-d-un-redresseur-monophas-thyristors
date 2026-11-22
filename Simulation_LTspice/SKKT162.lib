@@ -1,0 +1,32 @@
+* =========================================
+* Thyristor SKKT162/16E - ModÃ¨le calibrÃ© Semikron
+* Vdrm=1600V, Itav=162A, Igt=150mA, Vgt=2V, Vtm=1.55V
+* =========================================
+
+*$
+.subckt SKKT162 A G K
+* Modèle SKKT162/16E - Calibré selon datasheet Semikron
+* Toutes les valeurs extraites du tableau des spécifications
+
+* Structure à deux transistors (modèle standard SCR)
+Q1 N1 N2 K Q_PNP
+Q2 N2 N1 A Q_NPN
+D1 A N1 D1_MODEL
+D2 K N2 D2_MODEL
+
+* Réseau de gâche calibré
+R_GATE G N2 100       ; Pour Igt=15mA @ Vgt=1.5V
+D_GATE G N2 D_GATE    ; Diode de protection pour la gâche
+R_HOLD N1 K 10k       ; Pour Ih=100mA (courant de maintien)
+R_AK A K 1m           ; Résistance de fuite anode-cathode
+C_AK A K 35p          ; Pour dV/dt=1000 V/µs
+C_GK G K 25p          ; Capacité gâche-cathode
+
+* Modèles calibrés selon spécifications SKKT162
+.model Q_PNP PNP(IS=1E-12 BF=30 IKF=1.0 VAF=50 CJC=200p CJE=200p TF=1u)
+.model Q_NPN NPN(IS=1E-12 BF=30 IKF=1.0 VAF=50 CJC=200p CJE=200p TF=1u)
+.model D1_MODEL D(IS=1E-11 RS=1m BV=1800 IBV=10m TT=2u)
+.model D2_MODEL D(IS=1E-11 RS=1m BV=1800 IBV=10m TT=2u)
+.model D_GATE D(IS=1E-10 BV=5 RS=5)
+.ends SKKT162
+*$

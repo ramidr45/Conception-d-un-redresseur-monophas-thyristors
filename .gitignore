@@ -1,0 +1,14 @@
+# LTspice : résultats de simulation (régénérables, trop lourds)
+*.raw
+*.log
+*.fft
+*.op.raw
+# KiCad
+*-backups/
+fp-info-cache
+*.bak
+*-bak
+*.lck
+_autosave-*
+# Bibliographie (livres protégés par droit d'auteur)
+bibliographie/
